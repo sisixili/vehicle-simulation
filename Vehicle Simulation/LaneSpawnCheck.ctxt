@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LaneSpawnCheck
+comment1.params=laneNum
+comment1.target=LaneSpawnCheck(int)
+comment2.params=
+comment2.target=boolean\ vehiclePresent()
+comment2.text=\n\ Check\ if\ this\ LaneSpawnCheck\ is\ touching\ a\ Vehicle\n\ \n\ @return\ boolean\ \ is\ a\ vehicle\ present?\n
+numComments=3

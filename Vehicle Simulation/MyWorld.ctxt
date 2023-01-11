@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ MyWorld\ functions\ as\ the\ Controller\ for\ this\ Greenfoot\n\ project\ which\ helps\ students\ understand\ inheritance\n\ \n\ INSERT\ YOUR\ WRITTEN\ TASK\ HERE\:\n\ Inheritance\ is\ useful\ in\ scenario\ because\ the\ child\ classes\ can\ inherit\ certain\ methods\ from\ its\ \n\ parent\ so\ there\ is\ less\ redundant\ code.\ In\ Vehicle.class,\ subclasses\ inherit\ int\ speed,\ \n\ checkHitPedestrian(),\ checkEdges(),\ and\ drive().\ The\ subclasses\ then\ add\ on\ their\ distinct\ \n\ checkHitPedestrian()\ code,\ while\ all\ sharing\ features\ from\ Vehicle.class.\ For\ example,\ Bus.class\ \n\ picks\ up\ DrunkPedestrian.class.\ It\ will\ get\ slower\ until\ it\ has\ taken\ 3\ passengers.\ Then\ it\ will\ \n\ eject\ a\ passenger\ behind\ it\ and\ resume\ a\ slower\ speed.\n\ In\ Pedestrian.class,\ subclasses\ inherit\ boolean\ isDead,\ the\ ability\ to\ be\ knocked\ over,\ healed,\ and\ \n\ picked\ up\ by\ a\ vehicle.\ It\ also\ includes\ walk(),\ atWorldEdge(),\ and\ getter\ and\ setter\ methods\ for\ isDead.\ \n\ These\ common\ behaviours\ apply\ to\ all\ Pedestrians.\ DrunkPedestrians\ have\ an\ additional\ random\ movement\ \n\ walk\ pattern.\ They\ "shake"\ back\ and\ forth\ as\ if\ they\ were\ drunk.\ There\ is\ an\ isSober\ boolean\ value.\n\ \n\ @version\ October\ 2020\n\ @since\ March\ 2015\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ spawnVehicles()
+comment4.params=
+comment4.target=void\ spawnPedestrians()
+comment5.params=inLane
+comment5.target=int\ getYPosition(int)
+comment5.text=\n\ Returns\ the\ appropriate\ y\ coordinate\ for\ a\ given\ lane\n
+numComments=6
